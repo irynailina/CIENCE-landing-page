@@ -1,0 +1,57 @@
+.clients {
+  width: 260px;
+  margin: 0 auto;
+}
+
+.clients__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 260px;
+  justify-content: space-between;
+}
+
+.clients__item {
+  margin-bottom: 50px;
+}
+
+.veniam {
+  padding-top: 20px;
+}
+
+.fugiat {
+  padding-top: 6px;
+}
+
+.aquatree {
+  margin-left: 16px;
+}
+
+@media (min-width: 768px) {
+  .clients {
+    width: 682px;
+  }
+
+  .clients__list {
+    width: 682px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fugiat {
+    padding-top: 20px;
+  }
+
+  .connect {
+    padding-top: 12px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .clients {
+    width: 1100px;
+  }
+
+  .clients__list {
+    width: 1100px;
+  }
+}

@@ -1,0 +1,196 @@
+.apply {
+  background-color: #292d34;
+  padding-bottom: 50px;
+}
+
+.apply__wrap {
+  width: 290px;
+  margin: 0 auto;
+}
+
+.apply__title {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 35px;
+  letter-spacing: -0.48px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 36px;
+  padding-bottom: 10px;
+}
+
+.typing,
+.goals,
+.message {
+  color: #ff3300;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 700;
+  margin-left: 6px;
+}
+
+.input {
+  width: 290px;
+  height: 50px;
+  border-radius: 12px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.goals {
+  margin-bottom: 20px;
+}
+
+.checkboxes__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.checkboxes__item {
+  margin-bottom: 20px;
+}
+
+.checkboxes__wrap {
+  display: flex;
+  width: 136px;
+}
+
+.checks {
+  width: 30px;
+  height: 30px;
+}
+
+.checks__label {
+  color: #ff3300;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  margin-left: 6px;
+  padding-top: 6px;
+}
+
+.message {
+  margin-bottom: 6px;
+}
+
+textarea {
+  width: 290px;
+  height: 194px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.button {
+  width: 270px;
+  height: 50px;
+  border: none;
+  color: #ffffff;
+  background-color: #ff3300;
+  display: block;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 1.6px;
+}
+
+@media (min-width: 768px) {
+  .apply {
+    padding-bottom: 0;
+  }
+
+  .apply__wrap {
+    width: 690px;
+  }
+
+  .apply__form {
+    text-align: center;
+  }
+
+  .inputs {
+    margin-bottom: 30px;
+  }
+
+  .apply__title {
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0;
+    margin-left: 94px;
+    width: 512px;
+  }
+
+  .input {
+    width: 330px;
+    height: 50px;
+  }
+
+  .typing,
+  .goals,
+  .message {
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .checkboxes {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .checkboxes__list {
+    margin-bottom: 70px;
+  }
+
+  textarea {
+    width: 690px;
+    height: 107px;
+    margin-bottom: 30px;
+  }
+
+  .button {
+    width: 190px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .apply__wrap {
+    width: 1100px;
+  }
+
+  .apply__wrap {
+    width: 730px;
+  }
+
+  .apply__title {
+    font-size: 36px;
+    line-height: 48px;
+    margin-left: 62px;
+    width: 616px;
+    margin-bottom: 50px;
+  }
+
+  .inputs {
+    width: 730px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .input {
+    width: 350px;
+    height: 50px;
+  }
+
+  .checkboxes {
+    width: 730px;
+  }
+
+  textarea {
+    width: 730px;
+    height: 80px;
+    margin-bottom: 40px;
+  }
+}

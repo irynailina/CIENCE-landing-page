@@ -1,0 +1,42 @@
+.video {
+  padding-top: 50px;
+  width: 290px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.video__title {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+@media (min-width: 768px) {
+  .video {
+    width: 570px;
+  }
+
+  .video__content {
+    width: 570px;
+    height: 320px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .video {
+    width: 920px;
+  }
+
+  .video__content {
+    width: 920px;
+    height: 614px;
+  }
+
+  .video__title {
+    margin-bottom: 40px;
+    font-size: 35px;
+    line-height: 55px;
+  }
+}

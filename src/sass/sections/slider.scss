@@ -1,0 +1,155 @@
+.slider {
+  width: 294px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.slider__title {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.slider__content_list {
+  height: 484px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider__text-box {
+  width: 225px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.slider__info {
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 26px;
+}
+
+.slider__button-wrap {
+  width: 294px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 434%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.previous,
+.next {
+  display: block;
+  width: 12px;
+  height: 28px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border: none;
+  background-color: white;
+}
+
+.previous {
+  background-image: url(../../images/buttons/previous.png);
+}
+
+.next {
+  background-image: url(../../images/buttons/next.png);
+}
+
+.author {
+  width: 225px;
+  margin: 0 auto;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.position,
+.company {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+@media (min-width: 768px) {
+  .slider {
+    width: 680px;
+  }
+
+  .slider__content_list {
+    width: 682px;
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .slider__text-box {
+    width: 290px;
+    height: 100px;
+    overflow: hidden;
+    margin-left: 56px;
+  }
+
+  .slider__info {
+    line-height: 24px;
+  }
+
+  .slider__button-wrap {
+    top: 294%;
+    width: 684px;
+    margin-left: 24px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .slider {
+    width: 1100px;
+  }
+
+  .slider__content_list {
+    width: 1028px;
+    height: 240px;
+  }
+
+  .slider__text-box {
+    width: 290px;
+    height: 100px;
+    overflow: hidden;
+    margin-left: 56px;
+  }
+
+  .slider__info {
+    line-height: 24px;
+  }
+
+  .slider__button-wrap {
+    top: 344%;
+    width: 1100px;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .slider__button-wrap {
+    top: 386%;
+
+}
+}
+
+
+
+@media (min-width: 1920px) {
+  .slider__button-wrap {
+    top: 450%;
+
+}
+}
